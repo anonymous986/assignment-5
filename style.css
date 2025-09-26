@@ -1,5 +1,6 @@
-*{
+* body{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+    background-color: #b8aeae;
 }
 
 .box {
@@ -9,7 +10,7 @@
     border: 2px solid #222; 
     border-radius: 12px; 
     background: radial-gradient(circle at top left, #0f2027, #203a43, #2c5364);    
-    box-shadow: 0 6px 18px rgba(0,0,0,0.12); 
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
     margin: 12px auto; 
     margin-top: 250px;  
     text-align: left;
@@ -21,7 +22,7 @@
 }
 img {
     position: relative;
-    top: -100px;     
+    top: -180px;     
   }
 .text {
     margin-left: 20px;
